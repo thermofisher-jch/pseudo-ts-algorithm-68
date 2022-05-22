@@ -2,6 +2,8 @@
 
 history="./hist_size.csv"
 
+echo `pwd`
+ls
 basedir="$(basename `pwd`)"
 
 # Strip csd-genexus- and psuedo- prefixes away from working directory name
